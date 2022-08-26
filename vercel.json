@@ -2,7 +2,7 @@
     "name": "Video Player",
     "version": 2,
     "builds": [
-        { "src": "*.py", "use": "@liudonghua123/now-flask" }
+        { "src": "*.py", "use": "" }
     ],
     "routes": [
         { "src": "(.*)", "dest": "StreamTapeDownloader.py" }
